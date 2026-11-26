@@ -78,7 +78,7 @@
     <div class="jobplugin__wrapper">
        
         <!--=====HEADER START=======-->
-        <header class="jobplugin__header header-theme-19 bg-gredient">
+        <header class="jobplugin__header header-theme-19 bg-light-sky">
             <div class="jobplugin__container">
                 <div class="jobplugin__header-holder px-10 py-0">
                     <div class="jobplugin__header-left">

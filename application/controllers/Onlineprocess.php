@@ -505,6 +505,7 @@ class Onlineprocess extends CI_Controller
 			'state' => $_REQUEST['state'],
 			'process_step' => 2
 		);
+		
 		$response1 = $this->Site_Digital_Model->updateregistration($_REQUEST['userid'], $data1);
 
 		$userdata = $this->Site_Digital_Model->checkuserdata($_REQUEST['applyid']);
@@ -525,7 +526,7 @@ class Onlineprocess extends CI_Controller
 			'loantenure' => $_REQUEST['tenure']
 		);
 		$response = $this->Site_Digital_Model->updateapplication($_REQUEST['applyid'], $data);
-
+		
 		$apr = ($userdata->loantype == 12) ? 11.5 : 12.5;
 		$eligibilityamt = calEligiblity($userdata->income, $userdata->currentemi, $apr, $userdata->loanamount);
 

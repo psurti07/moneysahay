@@ -15,17 +15,17 @@
 
     <title>
         <?php if (isset($meta->title)) {
-      echo $meta->title;
-    } else {
-      echo "Apply for Instant Personal Loan Online approvals | firstkredit";
-    } ?>
+            echo $meta->title;
+        } else {
+            echo "Apply for Instant Personal Loan Online approvals | firstkredit";
+        } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
-    echo $meta->descriptions;
-  } ?>" />
+                                            echo $meta->descriptions;
+                                        } ?>" />
     <meta name="keywords" content="<?php if (isset($meta->keywords)) {
-    echo $meta->keywords;
-  } ?>" />
+                                        echo $meta->keywords;
+                                    } ?>" />
 
     <meta property="og:title" content="firstkreditt: Your Trusted Source for Quick and Easy Financing">
     <meta property="og:site_name" content="firstkreditt">
@@ -69,44 +69,44 @@
     <script src="<?= base_url('assets/js/plugins/jquery-3-6-0.min.js'); ?>"></script>
     <!-- Facebook Domain + Pixel Code -->
     <?php
-  $fbdomain = getFacebookDomain();
-  if ($fbdomain != Null) {
-    echo '<meta name="facebook-domain-verification" content="' . $fbdomain . '" />';
-  }
+    $fbdomain = getFacebookDomain();
+    if ($fbdomain != Null) {
+        echo '<meta name="facebook-domain-verification" content="' . $fbdomain . '" />';
+    }
 
-  $fbpixel = getFacebookPixel();
-  if ($fbpixel != Null) {
-?>
+    $fbpixel = getFacebookPixel();
+    if ($fbpixel != Null) {
+    ?>
 
-    <script>
-    ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '<?php echo $fbpixel; ?>');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=<?php echo $fbpixel; ?>&ev=PageView&noscript=1" /></noscript>
+        <script>
+            ! function(f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function() {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '<?php echo $fbpixel; ?>');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=<?php echo $fbpixel; ?>&ev=PageView&noscript=1" /></noscript>
     <?php } ?>
     <!-- End Facebook Domain + Pixel Code -->
 
     <script>
-    const base_url = '<?php echo base_url(); ?>'
+        const base_url = '<?php echo base_url(); ?>'
     </script>
 
 </head>
@@ -120,54 +120,60 @@
         <!--=====HEADER START=======-->
         <header class="header">
             <div class="container">
-       <div class="header-box w-100 d-flex align-items-center justify-content-between">
-                <div class="text-start">
-                    <strong class="logo">
-                        <a href="<?php echo site_url(); ?>">
-                            <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                                alt="firstkreditt">
-                            <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                                alt="firstkredittt">
-                        </a>
-                    </strong>
-                </div>
-                <div class="header-right">
-                    <a class="btn btn-orange mobile-btn" href="<?php echo site_url('onlineprocess/applynow'); ?>"><span
-                            class="btn-text"> Apply
-                            Now</span></a>
-                    <div class="main-nav ms-10 header-menu">
-                        <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
-                        <div class="nav-drop d-lg-flex align-items-center justify-content-between">
-                            <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
+                <div class="header-box w-100 d-flex align-items-center justify-content-between shadow">
+                    <div class="text-start">
+                        <strong class="logo">
+                            <a href="<?php echo site_url(); ?>">
+                                <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                    alt="firstkreditt">
+                                <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                                    alt="firstkredittt">
+                            </a>
+                        </strong>
+                    </div>
+                    <div class="header-right">
+                        <a class="btn btn-orange mobile-btn" href="<?php echo site_url('onlineprocess/applynow'); ?>"><span
+                                class="btn-text"> Apply
+                                Now</span></a>
+                        <div class="main-nav ms-10 header-menu">
+                            <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
+                            <div class="nav-drop d-lg-flex align-items-center justify-content-between">
+                                <a href="<?php echo site_url(); ?>" class="nav-close d-flex d-lg-none"><span></span></a>
 
-                            <ul class="navigation">
-                                <li><a href="<?php echo site_url(); ?>">Home</a></li>
-                                <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
-                                <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
-                                <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
- <li class="d-lg-none d-block"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
-                            </ul>
+                                <ul class="navigation">
+                                    <li><a href="<?php echo site_url(); ?>">Home</a></li>
+                                    <li><a href="javascript:;" onclick="goToMenu('aboutus')">About</a></li>
+                                    <li><a href="javascript:;" onclick="goToMenu('howitworks')">How It Works</a></li>
+                                    <li><a href="javascript:;" onclick="goToMenu('emicalculator')">EMI Calculator</a></li>
+                                    <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
+                                    <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
+                                    <!-- <li class="d-lg-none d-block"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li> -->
+                                    <li>
+                                        <a href="<?php echo site_url('customer'); ?>"> Login </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
 
                         </div>
+                    </div>
+                    <div>
+                        <div class="main-nav ms-10 header-menu d-lg-block d-none">
+                            <ul class="navigation">
+                                <li class="d-lg-none d-block"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
+
+                            </ul>
+                        </div>
+                        <!-- <a class="btn btn-grey desktop-btn btn-sm" href="<?php echo site_url('customer'); ?>"><span
+                                class="btn-text text-orange">Customer Login</span></a> -->
+                        <a class="btn btn-orange desktop-btn btn-sm"
+                            href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">Apply
+                                Now</span></a>
 
                     </div>
                 </div>
-                <div>
-                        <div class="main-nav ms-10 header-menu d-lg-block d-none">
-      <ul class="navigation">
-            <li class="d-lg-none d-block pe-10"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
-
-</ul>
-</div>
-                    <a class="btn btn-grey desktop-btn btn-sm" href="<?php echo site_url('customer'); ?>"><span
-                            class="btn-text text-orange">Customer Login</span></a>
-                    <a class="btn btn-orange desktop-btn btn-sm"
-                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
-                            Now</span></a>
-
-                </div>
             </div>
-            </div>
-         
+
         </header>
         <!--=====HEADER END=======-->

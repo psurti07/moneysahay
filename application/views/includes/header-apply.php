@@ -78,9 +78,9 @@
     <div class="jobplugin__wrapper">
 
         <!--=====HEADER START=======-->
-        <header class="header header-theme-1 bg-blue">
+        <header class="header header-theme-1 bg-light-sky">
             <div class="container">
-            <div class="header-box bg-light-sky border px-20 py-5 w-100">
+            <div class="header-box bg-white border px-20 py-5 w-100 shadow">
                 <div class="text-start">
                     <strong class="logo">
                         <a href="<?php echo site_url(); ?>">

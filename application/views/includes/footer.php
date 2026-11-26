@@ -1,5 +1,5 @@
 	<!--=====footer-start=======-->
-	<footer class="footer footer-theme-1" style="background: rgba(0, 0, 61, 1);">
+	<footer class="footer footer-theme-1" style="background:#061638">
 	    <div class="pri-footer text-gray pt-40 pt-lg-40 pt-xxl-40 pb-35 pb-md-20">
 	        <div class="container">
 	            <div class="row">

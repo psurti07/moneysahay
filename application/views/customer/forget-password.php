@@ -20,15 +20,15 @@
         } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
-        echo $meta->descriptions;
-    } ?>" />
+                                            echo $meta->descriptions;
+                                        } ?>" />
     <meta name="keywords" content="<?php if (isset($meta->keywords)) {
-        echo $meta->keywords;
-    } ?>" />
+                                        echo $meta->keywords;
+                                    } ?>" />
 
     <meta property="og:title" content="firstkreditur Trusted Source for Quick and Easy Financing">
     <meta property="og:site_name" content="firstkredit
-    <meta property="og:url" content="<?php echo site_url(); ?>">
+    <meta property=" og:url" content="<?php echo site_url(); ?>">
     <meta property="og:description" content="firstkreditert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo base_url('assets/img/logo-dark@2x.png'); ?>">
@@ -76,48 +76,50 @@
         </div>
 
         <main class="main">
-      <section
-        class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120 vh-100 d-flex align-items-center justify-content-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 m-auto">
-                 	<div class="block-holder form-condidates bg-white shadow rounded-1">  
-                <div class="text-center pb-30" style="margin:auto">
-                  <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="200px">
-                </div>
-                <div class="">
-                  <div class="form-head">
-                    <h5>Password Reset</h5>
-                  </div>
-                  <?php echo form_open('customer/login/sendForgetmessage', array('id' => 'submitForm1', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
-                    <div class="row mt-10">
-                        <div class="col-12 mb-15 mb-md-20">
-                            <input class="form-control" type="text" id="mobile" name="mobile"
-                                placeholder="Mobile No" id="mobile" required minlength="10"
-                                maxlength="10" inputmode="numeric"
-                                data-validation-regex-regex="^[6789]\d{9}$"
-                                data-validation-regex-message="Enter valid mobile number">
+            <section
+                class="section section-accounts section-theme-1 pt-35 pt-md-50 pt-lg-75 pt-xl-100 pt-xxl-120 pb-35 pb-md-50 pb-lg-75 pb-xl-100 pb-xxl-120 vh-100 d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 m-auto">
+                                <div class="account-box mb-40">
+ <div class="account-box-frame text-dark bg-white shadow">
+                                <div class="text-center pb-30" style="margin:auto">
+                                    <img src="<?php echo base_url('assets/images/logo/logo-lg.png'); ?>" alt="user" class="img-fluid" width="200px">
+                                </div>
+                                <div class="">
+                                    <div class="form-head">
+                                        <h5>Password Reset</h5>
+                                    </div>
+                                    <?php echo form_open('customer/login/sendForgetmessage', array('id' => 'submitForm1', 'class' => 'contac-form', 'novalidate' => 'novalidate')); ?>
+                                    <div class="row mt-10">
+                                        <div class="col-12 mb-15 mb-md-20">
+                                            <input class="form-control" type="text" id="mobile" name="mobile"
+                                                placeholder="Mobile No" id="mobile" required minlength="10"
+                                                maxlength="10" inputmode="numeric"
+                                                data-validation-regex-regex="^[6789]\d{9}$"
+                                                data-validation-regex-message="Enter valid mobile number">
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-orange btn-sm w-100"><span class="btn-text">SEND</span></button>
+                                        </div>
+                                    </div>
+                                    <?php echo form_close(); ?>
+                                    <div class="social-login mt-15 text-center">
+                                        <strong class="title">Don't have an account? <a href="<?php echo site_url('customer'); ?>" class="text-orange">Login Now</a></strong>
+                                    </div>
+                                </div>
+                            </div>
+</div>
                         </div>
-                        <div class="col-12">
-                            <button class="btn btn-orange btn-sm w-100"><span class="btn-text">SEND</span></button>
-                        </div>
+
                     </div>
-                    <?php echo form_close(); ?>
-                  <div class="social-login mt-15 text-center">
-                    <strong class="title">Don't have an account? <a href="<?php echo site_url('customer'); ?>" class="text-orange">Login Now</a></strong>
-                  </div>
                 </div>
-              </div>
-            </div>
-        
-          </div>
-        </div>
-      </section>
-    </main>
+            </section>
+        </main>
 
         <!--=====footer-start=======-->
         <footer class="footer footer-theme-1">
-            <div class="sec-footer bg-blue text-white pt-30 pb-25 py-md-20 py-lg-20">
+            <div class="sec-footer bg-dark-blue text-white pt-30 pb-25 py-md-20 py-lg-20">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-7 mb-15 mb-md-0">
@@ -145,8 +147,8 @@
     <script src="<?php echo base_url('assets/js/plugins/toastr.min.js'); ?>" type="text/javascript"></script>
 
     <script type="text/javascript">
-        $(function () {
-            $('#submitForm1').on('submit', function (e) {
+        $(function() {
+            $('#submitForm1').on('submit', function(e) {
                 e.preventDefault();
 
                 $.ajax({
@@ -156,25 +158,24 @@
                     dataType: "JSON",
                     cache: false,
                     processData: false,
-                    beforeSend: function () {
+                    beforeSend: function() {
                         $('#form-submit1').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> SENDING...');
                         $('#form-submit1').attr('disabled', true);
                     },
-                    success: function (response) {
+                    success: function(response) {
                         if (response['success'] == true) {
                             document.getElementById("submitForm1").reset();
                             toastr.success(response['message']);
-                            setTimeout(function () {
+                            setTimeout(function() {
                                 window.location.href = `<?php echo base_url('customer') ?>`;
                             }, 2000);
-                        }
-                        else {
+                        } else {
                             toastr.error(response['message']);
                         }
                         $('#form-submit1').html('SEND');
                         $('#form-submit1').attr('disabled', false);
                     },
-                    error: function (jXHR, textStatus, errorThrown) {
+                    error: function(jXHR, textStatus, errorThrown) {
                         $('#form-submit1').html('SEND');
                         $('#form-submit1').attr('disabled', false);
                         toastr.error(errorThrown, 'ERROR');

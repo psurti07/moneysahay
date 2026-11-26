@@ -2,14 +2,14 @@
 $this->load->view('includes/header-apply');
 ?>
 
-<div class="subvisual-block subvisual-theme-1 bg-blue d-flex pt-60 pt-md-90 pt-lg-70 pb-30 text-white">
+<div class="subvisual-block subvisual-theme-1 bg-light-sky d-flex pt-60 pt-md-90 pt-lg-70 pb-30 text-white">
  
   <div class="container position-relative text-center">
     <div class="row">
       <div class="col-12">
-        <div class="subvisual-textbox text-white">
-          <h4 class="mb-2">Frequently Asked Questions</h4>
-          <p>Here are answers to some of the most Frequently Asked Questions (FAQs)</p>
+        <div class="subvisual-textbox">
+          <h4 class="mb-2 text-blue">Frequently Asked Questions</h4>
+          <p class="text-black">Here are answers to some of the most Frequently Asked Questions (FAQs)</p>
         </div>
       </div>
     </div>
