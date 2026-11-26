@@ -151,7 +151,7 @@ $this->load->view('includes/header-offer');
 									href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
 									class="text-dark">Terms of Use</a> and <a
 									href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-									class="text-dark">Privacy Policy</a> of firstkredit.in</p>
+									class="text-dark">Privacy Policy</a> of moneysahay.in</p>
 						</div>
 					</div>
 					<div class="jobplugin__container mt-50">
@@ -203,7 +203,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>I am extremely satisfied with the firstkredit team's services. They took care of all of my financial needs and provided me with unbiased, timely assistance. Thank you so much, guys. Keep it up!!</p>
+							<p>I am extremely satisfied with the moneysahay team's services. They took care of all of my financial needs and provided me with unbiased, timely assistance. Thank you so much, guys. Keep it up!!</p>
 						</div>
 					</div>
 					<div>

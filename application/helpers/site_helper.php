@@ -210,7 +210,7 @@ function snapconversioncurl($userdata)
     "event_conversion_type" => "WEB",
     "event_type" => "PURCHASE",
     "event_tag" => "online",
-    "page_url" => "https://firstkredit.in/digital/paymentResponse/true",
+    "page_url" => "https://moneysahay.in/digital/paymentResponse/true",
     "currency" => "INR",
     "price" => "299",
     'hashed_email' => $hashed_email, // Hashed email
@@ -412,7 +412,7 @@ function mailchimpmail()
   ];
 
   $maildata = [
-    "from_email" => "info@firstkredit.in",
+    "from_email" => "info@moneysahay.in",
     "subject" => "Testing mail",
     "text" => "Welcome to Mailchimp Transactional!",
     "to" => $userdate
@@ -589,7 +589,7 @@ function sendHTMLmail($to, $from, $subject, $message, $smtpemail = '', $attachfi
 
   $ci = get_instance();
   $ci->email->initialize($config);
-  $ci->email->from($from, 'firstkredit.in');
+  $ci->email->from($from, 'moneysahay.in');
   $ci->email->to($to);
   $ci->email->subject($subject);
   $ci->email->message($message);

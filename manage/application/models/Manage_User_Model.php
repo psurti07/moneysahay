@@ -387,7 +387,7 @@ Class Manage_User_Model extends CI_Model {
 		if($statusid == 1) {
 			$res = $this->getreferraldetails($id);
 			// Send SMS
-			$message = "Hello, your payout has been successfully credited to your account. Please check your login portal. Thanks & Regards, firstkredit";
+			$message = "Hello, your payout has been successfully credited to your account. Please check your login portal. Thanks & Regards, moneysahay";
 			$smsresponse = sendtextSMSobb($res['refferaldetails']->mobile, $message);
 		}
 
@@ -595,7 +595,7 @@ Class Manage_User_Model extends CI_Model {
 							->update('user_registration', $data); 
 
 			// Send SMS
-			$message = "Hello ".$account->fullname." Your firstkredit account's new password is ".$password." Do not share it with anyone. Thanks, firstkredit";
+			$message = "Hello ".$account->fullname." Your moneysahay account's new password is ".$password." Do not share it with anyone. Thanks, moneysahay";
 			$smsresponse = sendtextSMSobb($account->mobile, $message);
 
 						
@@ -712,17 +712,17 @@ Class Manage_User_Model extends CI_Model {
 	public function sendkycverifymessage($mobile='', $emailid=''){
 		
 		if($mobile != '') {
-			$smsmessage = "Dear Customer, your documents are successfully verified. Our Company Executive will contact you soon for your loan process. Thanks, firstkredit";
+			$smsmessage = "Dear Customer, your documents are successfully verified. Our Company Executive will contact you soon for your loan process. Thanks, moneysahay";
 			$smsresponse = sendtextSMSobb($mobile, $smsmessage);
 		}
 
 		if($emailid != '') {
-			$subject = "Documents Verification Message - firstkredit";
+			$subject = "Documents Verification Message - moneysahay";
 
 			$message = '<p>Dear Customer,</p>';
 			$message .= '<h3>Congratulations!</h3>';
 			$message .= '<p>The documents submitted by you are successfully verified. Our Company Executive will call you shortly regarding your loan process.</p>';
-			$message .= '<p>Thanks & Regards,<br/>firstkredit</p>';
+			$message .= '<p>Thanks & Regards,<br/>moneysahay</p>';
 
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->simpleemailtemplate($message);
@@ -747,12 +747,12 @@ Class Manage_User_Model extends CI_Model {
 		}
 
 		if($emailid != '') {
-			$subject = "Documents Verification Message - firstkredit";
+			$subject = "Documents Verification Message - moneysahay";
 
 			$message = '<p>Dear Customer,</p>';
 			$message .= '<h3>Congratulations!</h3>';
 			$message .= '<p>Your documents are successfully verified. Your payout will be credited to your account according to the successful referrals.</p>';
-			$message .= '<p>Thanks & Regards,<br/>firstkredit</p>';
+			$message .= '<p>Thanks & Regards,<br/>moneysahay</p>';
 			
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->simpleemailtemplate($message);
@@ -783,7 +783,7 @@ Class Manage_User_Model extends CI_Model {
 				'name' => $maildata['fullname']
 			);
 
-			$subject = "Welcome to firstkredit";
+			$subject = "Welcome to moneysahay";
 
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->customerwelcomeemailtemplate($maildata);

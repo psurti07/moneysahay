@@ -17,7 +17,7 @@
         <?php if (isset($meta->title)) {
             echo $meta->title;
         } else {
-            echo "Apply for Instant Personal Loan Online approvals | firstkredit";
+            echo "Apply for Instant Personal Loan Online approvals | moneysahay";
         } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
@@ -28,10 +28,10 @@
     } ?>" />
 
     <meta property="og:title" content="firstkreditur Trusted Source for Quick and Easy Financing">
-    <meta property="og:site_name" content="firstkredit">
+    <meta property="og:site_name" content="moneysahay">
     <meta property="og:url" content="<?php echo site_url(); ?>">
     <meta property="og:description"
-        content="firstkredit Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
+        content="moneysahay Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo base_url('assets/img/logo-dark@2x.png'); ?>">
     <meta property="og:locale" content="en_IN">
@@ -85,9 +85,9 @@
                     <strong class="logo">
                         <a href="<?php echo site_url(); ?>">
                             <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                                alt="firstkredit">
+                                alt="moneysahay">
                             <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
-                                alt="firstkredit">
+                                alt="moneysahay">
                         </a>
                     </strong>
                 </div>

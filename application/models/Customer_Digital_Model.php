@@ -55,18 +55,18 @@ Class Customer_Digital_Model extends CI_Model {
 	
 	public function sendGreetings($mobile='', $emailid='', $loan){
 		if($mobile != '') {
-			$message = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Please check your registered email id and login to the Customer Portal to submit the required documents. Thanks, firstkredit";
+			$message = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Please check your registered email id and login to the Customer Portal to submit the required documents. Thanks, moneysahay";
 			$smsresponse = sendtextSMSobb($mobile, $message);
 		}
 
 		if($emailid != '') {
 			// Send email
-			$subject = "Welcome firstkredit";
+			$subject = "Welcome moneysahay";
 			
 			$message = '<p>Dear Customer,</p>';
 			$message .= '<p><strong>Congratulations!</strong></p>';
 			$message .= '<p>Submission of your loan application is done. Our Customer Executive will be in touch shortly.</p>';
-			$message .= '<p>Thanks & Regards,<br/>firstkredit</p>';
+			$message .= '<p>Thanks & Regards,<br/>moneysahay</p>';
 
 			$this->load->model('Site_General_Model');
 			$content = $this->Site_General_Model->simpleemailtemplate($message);

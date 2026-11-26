@@ -88,7 +88,7 @@ class Customer_Login_Model extends CI_Model
 					->update('user_registration', $data);
 
 				// Send SMS
-				$message = "Hello " . $account->fullname . " Your firstkredit account's new password is " . $password . " Do not share it with anyone. Thanks, firstkredit";
+				$message = "Hello " . $account->fullname . " Your moneysahay account's new password is " . $password . " Do not share it with anyone. Thanks, moneysahay";
 				$smsresponse = sendtextSMSobb($account->mobile, $message);
 
 

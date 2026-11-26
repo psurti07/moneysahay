@@ -463,7 +463,7 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p class="lh-normal">FirstKredit explained the application steps clearly and helped me understand the documents required</p>
+                                        <p class="lh-normal">moneysahay explained the application steps clearly and helped me understand the documents required</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
@@ -552,7 +552,7 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>FirstKredit made it easier for me to understand the available loan options.</p>
+                                        <p>moneysahaymade it easier for me to understand the available loan options.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>
@@ -664,7 +664,7 @@ $this->load->view('includes/header');
                                         <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                     </div>
                                     <div class="card-comment">
-                                        <p>FirstKredit provided helpful support while I explored personal loan options.</p>
+                                        <p>moneysahay provided helpful support while I explored personal loan options.</p>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <div>

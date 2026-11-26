@@ -16,7 +16,7 @@
     <?php if (isset($meta->title)) {
       echo $meta->title;
     } else {
-      echo "Apply for Instant Personal Loan Online approvals | firstkredit";
+      echo "Apply for Instant Personal Loan Online approvals | moneysahay";
     } ?>
   </title>
   <meta name="description" content="<?php if (isset($meta->descriptions)) {
@@ -26,8 +26,8 @@
                                     echo $meta->keywords;
                                   } ?>" />
 
-  <meta property="og:title" content="firstkredit: Your Trusted Source for Quick and Easy Financing">
-  <meta property="og:site_name" content="firstkredit">
+  <meta property="og:title" content="moneysahay: Your Trusted Source for Quick and Easy Financing">
+  <meta property="og:site_name" content="moneysahay">
   <meta property="og:url" content="<?php echo site_url(); ?>">
   <meta property="og:description" content="firstkreditert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
   <meta property="og:type" content="website">
@@ -40,7 +40,7 @@
   <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="vw-team">
 
-  <link rel="shortcut icon" href="<?php echo base_url('assets/img/logo/firstkredit.png'); ?>">
+  <link rel="shortcut icon" href="<?php echo base_url('assets/img/logo/moneysahay.png'); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('assets/img/logo/apple-icon-180x180 png'); ?>">
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/img/logo/favicon-16x16.png'); ?>">
   <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/images/logo/favicon.ico'); ?>">

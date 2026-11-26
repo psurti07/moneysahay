@@ -200,7 +200,7 @@ Class Infopage extends CI_Controller {
 		 'order_amount' => '999.00'
 		);
 
-		$subject = "Welcome to firstkredit";
+		$subject = "Welcome to moneysahay";
 		
 		$this->load->model('Site_General_Model');
 		$content = $this->Site_General_Model->customerwelcomeemailtemplate($maildata);

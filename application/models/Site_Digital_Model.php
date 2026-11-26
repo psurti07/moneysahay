@@ -122,11 +122,11 @@ Class Site_Digital_Model extends CI_Model {
 				
 				if($emailid != '') {
 					// Send email
-					/* $subject = "Welcome firstkredit";
+					/* $subject = "Welcome moneysahay";
 					
 					$message = '<h3>Congratulations!</h3>';
-					$message .= '<p>We appreciate your registration with us! You\'re eligible for a pre-approved loan. Get your offer in just 3 steps. Buy Subscription Plan now: <a href="https://firstkredit.in/digital/applynow" target="_blank">Click Here</a></p>';
-					$message .= '<p>Thank You,<br/>firstkredit</p>';
+					$message .= '<p>We appreciate your registration with us! You\'re eligible for a pre-approved loan. Get your offer in just 3 steps. Buy Subscription Plan now: <a href="https://moneysahayin/digital/applynow" target="_blank">Click Here</a></p>';
+					$message .= '<p>Thank You,<br/>moneysahay</p>';
 
 					$this->load->model('Site_General_Model');
 					$content = $this->Site_General_Model->simpleemailtemplate($message);
@@ -154,11 +154,11 @@ Class Site_Digital_Model extends CI_Model {
 				
 				if($emailid != '') {
 					// Send email
-					/* $subject = "Welcome firstkredit";
+					/* $subject = "Welcome moneysahay";
 			
 					$message = '<h3>Congratulations!</h3>';
-					$message .= '<p>We appreciate your registration with us! You\'re eligible for a pre-approved loan. Get your offer in just 3 steps. Buy Subscription Plan now: <a href="https://firstkredit.in/digital/applynow" target="_blank">Click Here</a></p>';
-					$message .= '<p>Thank You,<br/>firstkredit</p>';
+					$message .= '<p>We appreciate your registration with us! You\'re eligible for a pre-approved loan. Get your offer in just 3 steps. Buy Subscription Plan now: <a href="https://moneysahay.in/digital/applynow" target="_blank">Click Here</a></p>';
+					$message .= '<p>Thank You,<br/>moneysahay</p>';
 
 					$this->load->model('Site_General_Model');
 					$content = $this->Site_General_Model->simpleemailtemplate($message);
@@ -200,11 +200,11 @@ Class Site_Digital_Model extends CI_Model {
 				
 				if($emailid != '') {
 					// Send email
-					$subject = "Welcome firstkredit";
+					$subject = "Welcome moneysahay";
 
 					$message = '<h3>Congratulations!</h3>';
-					$message .= '<p>You\'re Eligible for Pre-Approved Personal Loan of Rs.'.$eligibilityamt.' Buy Subscription plan & Get Loan in Your A/C in 30 mins. Buy subscription plan now : <a href="https://firstkredit/digital/applynow" target="_blank">Click Here</a></p>';
-					$message .= '<p>Thanks & Regards,<br/>firstkredit</p>';
+					$message .= '<p>You\'re Eligible for Pre-Approved Personal Loan of Rs.'.$eligibilityamt.' Buy Subscription plan & Get Loan in Your A/C in 30 mins. Buy subscription plan now : <a href="https://moneysahay/digital/applynow" target="_blank">Click Here</a></p>';
+					$message .= '<p>Thanks & Regards,<br/>moneysahay</p>';
 
 					$this->load->model('Site_General_Model');
 					$content = $this->Site_General_Model->simpleemailtemplate($message);
@@ -369,17 +369,17 @@ Class Site_Digital_Model extends CI_Model {
 
 	public function sendPaymentGreetings($name='', $mobile='', $emailid=''){
 		if($mobile != '') {
-			$smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, firstkredit";
+			$smsmessage = "Dear Customer, Congratulations! Your loan application has been successfully submitted. Our Customer Executive will call you shortly. Thanks, moneysahay";
 			$smsresponse = sendtextSMSobb($mobile, $smsmessage);
 		}
 
 		if($emailid != '') {
 			// Send email
-			$subject = "Welcome firstkredit";
+			$subject = "Welcome moneysahay";
 			
 			$message = '<p>Hello,</p>';
 			$message .= '<p>Submission of your loan application is done. Our Customer Executive will be in touch shortly.</p>';
-			$message .= '<p>Thanks & Regards,<br/>firstkredit</p>';
+			$message .= '<p>Thanks & Regards,<br/>moneysahay</p>';
 
 			$this->load->model('Site_General_Model');
 			$content = $this->Site_General_Model->simpleemailtemplate($message);
@@ -427,7 +427,7 @@ Class Site_Digital_Model extends CI_Model {
 				'name' => $maildata['fullname']
 			);
 
-			$subject = "Welcome to firstkredit";
+			$subject = "Welcome to moneysahay";
 
 			$this->load->model('Site_General_Model');
 			$content = $this->Site_General_Model->customerwelcomeemailtemplate($maildata);

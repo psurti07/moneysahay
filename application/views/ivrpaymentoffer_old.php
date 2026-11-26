@@ -151,7 +151,7 @@ $this->load->view('includes/header-offer');
 									href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
 									class="text-dark">Terms of Use</a> and <a
 									href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-									class="text-dark">Privacy Policy</a> of firstkredit.in</p>
+									class="text-dark">Privacy Policy</a> of moneysahay.in</p>
 						</div>
 					</div>
 					<div class="jobplugin__container mt-50">
@@ -247,7 +247,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>I am very thankful to firstkredit for a fast and transparent process. Everything was crystal clear and service was first class. I strongly recommend it to everyone who is looking for a loan.</p>
+							<p>I am very thankful to moneysahay for a fast and transparent process. Everything was crystal clear and service was first class. I strongly recommend it to everyone who is looking for a loan.</p>
 						</div>
 					</div>
 					<div>

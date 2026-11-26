@@ -22,7 +22,7 @@
             <tbody>
                 <tr>
                   <td style="vertical-align:bottom;word-wrap:break-word;float:left;width:50%;text-align:left;">
-                    <b style="font-size:14pt;">firstkredit.in</b><br>
+                    <b style="font-size:14pt;">moneysahay.in</b><br>
                     <b>Roop Finserve India Pvt. Ltd.</b><br/>
                     <div>
                     <span style="white-space: pre-wrap;" id="tmp_org_address"> Ground Floor , Plot No. 259 ,<br/>Shri Haridarshan Housing Society , <br>Singanpor Road , Near Mahek Residency , <br/>Surat, Gujarat - 395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>

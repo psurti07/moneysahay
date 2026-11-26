@@ -151,12 +151,12 @@ Class Manage_Account_Model extends CI_Model {
 
 	public function sendrefundmessage($mobile='', $emailid=''){
 		if($mobile != '') {
-			$smsmessage = "Hello, your refund payment is successfully done. For any query, kindly call us between 10 AM to 5 PM (Mon-Sat only business days). Thanks, firstkredit";
+			$smsmessage = "Hello, your refund payment is successfully done. For any query, kindly call us between 10 AM to 5 PM (Mon-Sat only business days). Thanks, moneysahay";
 			$smsresponse = sendtextSMSobb($mobile, $smsmessage);
 		}
 
 		if($emailid != '') {
-			$subject = "Refund Payment - firstkredit";
+			$subject = "Refund Payment - moneysahay";
 			
 			$message = '<p>Hello,</p>';
 			$message .= '<p>Your refund payment is successfully done. For any query, kindly call us between 10 AM to 5 PM (Mon-Sat only business days).</p>';

@@ -4,7 +4,7 @@
       <div class="col-md-8 col-lg-8">
         <div class="widget">
           <h4 class="widget-title text-white mb-3">About Company</h4>
-          <p>firstkredit brings to you the easiest & most optimized online portal for effective Financial Consultation & Services through its Subscription Plans – which are a boon for every financial advice seeker. With millions of customers already onboarded with satisfying experiences, firstkredit is striding towards excellence! With our subscription plans, our customers get top-notch financial service; along with various astounding advantages.</p>
+          <p>moneysahay brings to you the easiest & most optimized online portal for effective Financial Consultation & Services through its Subscription Plans – which are a boon for every financial advice seeker. With millions of customers already onboarded with satisfying experiences, moneysahay is striding towards excellence! With our subscription plans, our customers get top-notch financial service; along with various astounding advantages.</p>
         </div>
 
       </div>

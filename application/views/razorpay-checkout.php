@@ -43,7 +43,7 @@
           "amount": amount * 100,
           "currency": "INR",
           "order_id": orderid,
-          "name": "firstkredit",
+          "name": "moneysahay",
           "description": description,
           "prefill": {
             "name": fullname,

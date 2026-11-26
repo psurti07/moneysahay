@@ -89,15 +89,15 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
  */
 
 // Project details
-define('PROJECT_NAME', 'Firstkredit');
-define('COMPANY_NAME', 'Firstkredit Consulting Service');
-define('COMPANY_EMAIL', 'info@firstkredit.in');
-define('COMPANY_MOBILE', '+91-70166-27951');
+define('PROJECT_NAME', 'moneysahay');
+define('COMPANY_NAME', 'moneysahay Consulting Service');
+define('COMPANY_EMAIL', 'info@moneysahay.in');
+define('COMPANY_MOBILE', '#');
 define('COMPANY_CIN', '#');
-define('COMPANY_GST', '24BGSPD8902P1ZT');
-define('COMPANY_SITE', 'https://firstkredit.in');
+define('COMPANY_GST', '#');
+define('COMPANY_SITE', 'https://moneysahay.in');
 define('PARTNER_SITE', '#');
-define('COMPANY_ADDRESS', 'Ground Floor , Plot No. 259 , Shri Haridarshan Housing Society , Singanpor Road , Near Mahek Residency , Surat , Gujarat , 395004');
+define('COMPANY_ADDRESS', '#');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
 define('SECURE_SALT', 'verloopweb');
@@ -121,14 +121,14 @@ define('SM_PINTEREST', '#');
 define('SM_YOUTUBE', '#');
 
 // Email SMTP details
-define('SMTP_HOST', 'mail.firstkredit.in');
-define('SMTP_USER_INFO', 'info@firstkredit.in');
+define('SMTP_HOST', 'mail.moneysahay.in');
+define('SMTP_USER_INFO', 'info@moneysahay.in');
 define('SMTP_PASSWORD_INFO', 'firstk@4545');
 
-define('SMTP_USER_SUPPORT', 'info@firstkredit.in');
+define('SMTP_USER_SUPPORT', 'info@moneysahay.in');
 define('SMTP_PASSWORD_SUPPORT', 'firstk@4545');
 
-define('SMTP_USER_HR', 'info@firstkredit.in');
+define('SMTP_USER_HR', 'info@moneysahay.in');
 define('SMTP_PASSWORD_HR', 'firstk@4545');
 
 // OBB - SMS details - m
@@ -138,9 +138,9 @@ define('SMS_OBB_PASSWORD', '#');
 define('SMS_OBB_SENDER_ID', '#');
 
 // SENDINBLUE details
-define('SMTP_USER', 'info@firstkredit.in');
-define('SIB_NAME', 'firstkredit.in');
-define('SIB_EMAILID', 'info@firstkredit.in');
+define('SMTP_USER', 'info@moneysahay.in');
+define('SIB_NAME', 'moneysahay.in');
+define('SIB_EMAILID', 'info@moneysahay.in');
 define('SIB_APIKEY', '#');
 
 // Whatsapp API

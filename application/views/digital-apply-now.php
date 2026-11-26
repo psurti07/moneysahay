@@ -504,7 +504,7 @@ $this->load->view('includes/header-apply.php');
                                     <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                 </div>
                                 <div class="card-comment">
-                                    <p class="lh-normal">FirstKredit explained the application steps clearly and helped me understand the documents required</p>
+                                    <p class="lh-normal">moneysahay explained the application steps clearly and helped me understand the documents required</p>
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -593,7 +593,7 @@ $this->load->view('includes/header-apply.php');
                                     <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                 </div>
                                 <div class="card-comment">
-                                    <p>FirstKredit made it easier for me to understand the available loan options.</p>
+                                    <p>moneysahaymade it easier for me to understand the available loan options.</p>
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -705,7 +705,7 @@ $this->load->view('includes/header-apply.php');
                                     <img src="<?= base_url('assets/images/star.svg'); ?>" />
                                 </div>
                                 <div class="card-comment">
-                                    <p>FirstKredit provided helpful support while I explored personal loan options.</p>
+                                    <p>moneysahayprovided helpful support while I explored personal loan options.</p>
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -846,7 +846,7 @@ $this->load->view('includes/header-apply.php');
         </p>
 
         <p class="mb-0 text-white"><small><strong>Important Note: </strong>We ask our customers to make payments ONLY on
-                our website <a class="text-dark" href="<?php echo COMPANY_SITE; ?>">firstkredit.in</a> and NOT through
+                our website <a class="text-dark" href="<?php echo COMPANY_SITE; ?>">moneysahayn</a> and NOT through
                 any other
                 source, directly or indirectly.</small></p>
 

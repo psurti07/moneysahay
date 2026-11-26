@@ -7,7 +7,7 @@ $this->load->view('includes/header');
         <div class="row justify-content-between">
             <div class="col-12 col-lg-9 col-xl-8 position-relative">
                 <div class="visual-textbox">
-                    <h1>Aapke Sapno Ka Saathi – Aapka Apna firstkredit</h1>
+                    <h1>Aapke Sapno Ka Saathi – Aapka Apna moneysahay</h1>
                     <p>The Best Financial Consultation From Your Comfort Zone!</p>
                     <div class="form-search d-flex flex-column flex-lg-row justify-content-between">
                         <div class="fields-holder bg-white text-black d-flex flex-wrap flex-md-nowrap">
@@ -202,8 +202,8 @@ $this->load->view('includes/header');
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-6 txt-col mb-20">
                     <p class="mb-5 mb-lg-10">Why Choose Us?</p>
-                    <h2>What Makes firstkredit Emerge as the Best?</h2>
-                    <p>At firstkredit, we are defined by our commitment to quality, customer-focused methodology,
+                    <h2>What Makes moneysahayEmerge as the Best?</h2>
+                    <p>At moneysahay we are defined by our commitment to quality, customer-focused methodology,
                         and the goal of empowering all our clients financially. Built on a foundation of trust and
                         deeply held principles, we take pride in offering specialised solutions that are tailored to
                         each client's needs across India.</p>

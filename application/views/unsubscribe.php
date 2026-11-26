@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no;user-scalable=0;"/>
-        <title><?php if(isset($meta->title)) { echo $meta->title; } else { echo "Apply for Instant Personal Loan Online approvals | firstkredit"; } ?></title>
+        <title><?php if(isset($meta->title)) { echo $meta->title; } else { echo "Apply for Instant Personal Loan Online approvals | moneysahay"; } ?></title>
         <meta name="description" content="<?php if(isset($meta->descriptions)) { echo $meta->descriptions; } ?>" />
         <meta name="keywords" content="<?php if(isset($meta->keywords)) { echo $meta->keywords; } ?>" />
 

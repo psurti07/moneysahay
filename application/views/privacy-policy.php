@@ -9,7 +9,7 @@ $this->load->view('includes/header-apply');
             <div class="col-12">
                 <div class="subvisual-textbox">
                     <h3 class="text-blue">Privacy Policy</h3>
-                    <p class="text-black">How firstkredit collects, uses, and protects your information.</p>
+                    <p class="text-black">How moneysahay collects, uses, and protects your information.</p>
                 </div>
             </div>
         </div>

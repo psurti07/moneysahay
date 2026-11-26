@@ -17,7 +17,7 @@
         <?php if (isset($meta->title)) {
             echo $meta->title;
         } else {
-            echo "Apply for Instant Personal Loan Online approvals | firstkredit";
+            echo "Apply for Instant Personal Loan Online approvals | moneysahay";
         } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
