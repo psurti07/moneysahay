@@ -290,7 +290,7 @@ $this->load->view('includes/header');
             <div class="row mb-0 g-20">
                 <div class="col-lg-6">
                     <div class="card-left-main p-25 h-100">
-                        <header class="section-header text-start">
+                        <header class="section-header text-start ms-0">
                             <span class="text-orange text-uppercase text-outlined text-top mb-15 d-inline-block section-title position-relative">Why Choose Us</span>
                             <h3 class="text-light">The moneysahay difference</h3>
 
