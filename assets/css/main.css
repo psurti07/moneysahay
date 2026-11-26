@@ -15495,7 +15495,7 @@ textarea.form-control.form-control-lg {
 
 @media (min-width: 1200px) {
     .section-theme-2 .counters-block .numbers {
-        font-size: 58px;
+        font-size: 35px;
         letter-spacing: -3px;
         margin: 0;
     }
@@ -15503,7 +15503,7 @@ textarea.form-control.form-control-lg {
 
 @media (min-width: 1375px) {
     .section-theme-2 .counters-block .numbers {
-        font-size: 70px;
+        font-size: 35px;
     }
 }
 
